@@ -1,0 +1,30 @@
+{
+  "name": "less-wxss",
+  "version": "1.0.0",
+  "description": "less-wxss",
+  "main": "index.js",
+  "bin": {
+    "wxss": "./lib/wxss.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index -- src,components "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq-meow/less-wxss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qq-meow/less-wxss/issues"
+  },
+  "homepage": "https://github.com/qq-meow/less-wxss#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "chokidar": "^3.4.0",
+    "commander": "^5.1.0",
+    "less": "^3.11.2",
+    "path": "^0.12.7"
+  }
+}
